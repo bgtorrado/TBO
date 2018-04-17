@@ -127,6 +127,7 @@ setup_toolarea (TboToolText *self)
 
     scroll = gtk_scrolled_window_new (NULL, NULL);
     gtk_scrolled_window_set_policy (GTK_SCROLLED_WINDOW (scroll), GTK_POLICY_AUTOMATIC, GTK_POLICY_AUTOMATIC);
+    gtk_scrolled_window_set_min_content_height (GTK_SCROLLED_WINDOW (scroll), 40);
     view = gtk_text_view_new ();
     gtk_widget_add_events (view, GDK_FOCUS_CHANGE_MASK);
     g_signal_connect (view, "focus-in-event", G_CALLBACK (on_tview_focus_in), self);
