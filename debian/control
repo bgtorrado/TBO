@@ -2,7 +2,7 @@ Source: tbo
 Section: gnome
 Priority: optional
 Maintainer: Daniel Garcia <danigm@wadobo.com>
-Uploaders: Roberto C. Morano <rcmorano@emergya.es>
+Uploaders: Blanca G.T.
 Build-Depends: cdbs,
                debhelper (>= 8),
                pkg-config,
