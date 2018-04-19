@@ -1,3 +1,9 @@
+tbo (1.0.1-1) UNRELEASED; urgency=medium
+
+  * Fix scroll vbox text tool (tbo-tool-text.c)
+
+ -- Blanca G.T. <bgtorrado@gmail.com>  Thu, 19 Apr 2018 08:42:25 +0000
+
 tbo (1.0.0) unstable; urgency=low
 
   * New upstream release.
